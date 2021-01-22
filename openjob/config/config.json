@@ -1,0 +1,7 @@
+{
+    "DB_USERNAME" : "mraanmvb",
+    "DB_PASSWORD" : "postgres://mraanmvb:2BQQpl...@satao.db.elephantsql.com:5432/mraanmvb",
+    "DB_PORT" : "5432",
+    "DB_HOST" : "satao.db.elephantsql.com",
+    "DB_NAME" : "mraanmvb"
+  }
