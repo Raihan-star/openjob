@@ -17,8 +17,8 @@ func Init() *echo.Echo {
 	e.POST("/post_openjob", controllers.StoreOpenjob)
 	e.PUT("/put_openjob", controllers.UpdateOpenjob)
 	e.DELETE("/delete_openjob", controllers.DeleteOpenjob)
-	//e.GET("/generate-hash/:password", controllers.GenerateHashPassword)
-	//e.POST("/login", controllers.CheckLogin)
+	e.GET("/generate-hash/:password", controllers.GenerateHashPassword)
+	e.POST("/openjob/login", controllers.CheckLogin)
 
 	return e
 }
